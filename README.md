@@ -1,5 +1,5 @@
 # Hope_Love
-前端的结课作业项目
+前端的结课作业项目，部署后完整的网站，访问这里 ==> [查看页面](https://qiyongchuan.github.io/Hope_Love/)
 
 开发记录主要写在了issue里，[这里查看完整版](https://github.com/QiYongchuan/Hope_Love/issues/1#issue-1741285946)
 
