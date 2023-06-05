@@ -1,0 +1,264 @@
+body {
+  height: 2000px;
+}
+a{
+  color: #118a31;
+}
+
+.carousel-indicators li {
+  width: 50px;
+  height: 4px;
+  border: 0;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.carousel-indicators .active {
+  background-color: #fff;
+  width: 50px;
+  height: 4px;
+  border: 0;
+  margin: 0 2px;
+}
+.navbar-default {
+  border-color: transparent;
+  background-color: transparent;
+}
+.navbar-nav {
+  margin-top: 10px;
+}
+.navbar-default .navbar-nav > li > a {
+  font-size: 16px;
+  color: #5f1212;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: orange;
+}
+.navbar-brand {
+  height: 70px;
+}
+.navbar-brand img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .navbar-default .navbar-collapse {
+    text-align: center;
+    background-color: #333;
+  }
+}
+/* 标题 */
+.title {
+  margin-top: 70px;
+  text-align: center;
+}
+.title h4 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #118a31;
+}
+.title p {
+  margin-top: 12px;
+  font-size: 16px;
+  color: #a22929;
+}
+.items > div {
+  height: 197px;
+  margin-top: 30px;
+  background-color: #fff;
+}
+.items > div a {
+  display: block;
+  height: 197px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 20px;
+  color: #fff;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+.items > div a img {
+  height: 70px;
+  width: 120px;
+}
+/* .items > div a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  transform: skew(-30deg);
+  background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.6), transparent);
+} */
+/* .items > div a:hover::after {
+  transition: all 0.3;
+  left: 100%;
+} */
+.items > div a:hover {
+  box-shadow: 0 26px 40px -24px #002464;
+  transform: translateY(-6px);
+}
+.items > div:nth-child(1) a {
+  background-color: #7ec3ff;
+}
+.items > div:nth-child(2) a {
+  background-color: #f36c88;
+}
+.items > div:nth-child(3) a {
+  background-color: #818ea0;
+}
+.items > div:nth-child(4) a {
+  background-color: #91cf49;
+}
+
+/* 轮播图样式 */
+.carousel-inner>.item{
+  height: 600px;
+}
+
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+      /* width: auto; */
+      max-width: 100%;
+      /* height: 600px; */
+      margin: auto;
+    }
+
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+      height: 100%;
+      width: 100%;
+      /* object-fit: cover; */
+    }
+
+
+/* 图片展示部分 */
+.pic-box{
+  
+  /* border: 1px solid red; */
+  padding:10px ;
+  margin: 60px 30px;
+  margin-bottom: 0px;
+  /* 因为container-fluid是100%布局，左右padding15px,想调整会影响所有的container-fluid，这里多设置一个类box-pic来实现 */
+}
+
+.pic-box img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+.p-r-0{
+  padding-right: 0;
+}
+
+/* footer部分 */
+
+.card{
+  height: 400px;
+  width: 100%;
+  background-color: #212121;
+  
+}
+.card a{
+  text-decoration: none;
+}
+.card a:hover {
+   color: orange;
+}
+
+.card .footer-tittle{
+  
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.card .myitem{
+  /* border: 1px solid red; */
+  display:flex ;
+  flex-direction: column;
+
+}
+.card .myitem a {
+  color: #c4c4c4;
+}
+.card .myitem a:hover{
+  color: #E0E0E0;
+  transition: all .2s ease-in-out;
+}
+.card-body{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.card-body .footer-container{
+  display: flex;
+  justify-content:space-around;
+  /* border: 1px solid red; */
+  width: 80%;
+  align-items: center;
+}
+
+
+.card-footer{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.card-footer .footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  /* border: 1px solid red; */
+  width: 80%;
+  align-items: center;
+}
+.text-light{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.text-light img{
+  width: 40px;
+  height: 40px;
+}
+
+.card-footer .footer-container p::selection{
+  color: green;
+  /* background-color: whitesmoke; */
+  
+}
+
+
+
+/* 模态框 */
+
+.modal-dialog{
+  width: 800px;
+  height: 800px;
+  /* border: 1px solid red; */
+}
+.modal-body{
+  height: 400px;
+  text-align: center;
+}
+.modal-body img{
+  width: 320px;
+  height: 320px;
+  margin: 5px auto;
+  display: block;
+}
+
+
+/* logo的特效 */
+
+.navlogo{
+  transition: 2s ease;
+}
+.navlogo:hover{
+   /* border: 1px solid red; */
+   transform: rotateX(360deg)
+}
