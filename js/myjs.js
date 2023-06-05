@@ -36,7 +36,7 @@ function playAudio(params) {
   audio1.play();
 }
 
-// 鼠标事件 按下b键播放
+// 键盘事件
 document.addEventListener("keydown",function(event){
   if(event.key == '1'){
     window.location.hash = 'find';
